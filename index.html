@@ -72,11 +72,11 @@
                 <div class="form-group col-md-10">
                     <label for="foodlist">Choice of Food:</label>
                     <ul id="choice-food">
-                        <li><input class = "options" type="checkbox" value="Indian" id="options"> Indian</li>
-                        <li><input class = "options" type="checkbox" value="Thai" id="options"> Thai</li>
-                        <li><input class = "options" type="checkbox" value="Mexican" id="options"> Mexican</li>
-                        <li><input class = "options" type="checkbox" value="Italian" id="options"> Italian</li>
-                        <li><input class = "options" type="checkbox" value="Chinese" id="options"> Chinese</li>
+                        <li><input class = "options" type="checkbox" value="Indian" id="options" name ="flist"> Indian</li>
+                        <li><input class = "options" type="checkbox" value="Thai" id="options" name ="flist"> Thai</li>
+                        <li><input class = "options" type="checkbox" value="Mexican" id="options" name ="flist"> Mexican</li>
+                        <li><input class = "options" type="checkbox" value="Italian" id="options" name ="flist"> Italian</li>
+                        <li><input class = "options" type="checkbox" value="Chinese" id="options" name ="flist"> Chinese</li>
                     </ul>
                 </div>
 
@@ -85,7 +85,7 @@
                 </div>
      
               <div class="form-group col-md-10">
-                <table class="table" border="1" cellspacing="0" cellpadding="">
+                <table class="table" border="1" cellspacing="0" cellpadding="" id ="table">
                   <thead class="thead-dark" id="table-head">
                     <tr>
                       <th scope="col">FirstName</th>
@@ -98,9 +98,7 @@
                       <th scope="col">Food</th>
                      </tr>
                   </thead>
-                  <tbody id="table-body">
-
-                  </tbody>
+                  <tbody></tbody>
                 </table>
               </div>
 
